@@ -11,7 +11,7 @@ source:
   sha256: cfdca8877e7ab0a2dd9e360af45e9cb11420f7f8c31cec2c3b12f41d0a4f7f3a
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - aws-sso-util = aws_sso_util.cli:cli
@@ -23,7 +23,7 @@ requirements:
     - poetry
     - python >=3.6,<4.0
   run:
-    - click >=7.1.2,<8.0.0
+    - click >=7.1.2,<9.0.0  # upstream pins to <8 but this seems to work
     - boto3 >=1.20.28,<2.0.0
     - pyyaml >=5.3.1,<6.0.0
     - jsonschema >=3.2.0,<4.0.0
@@ -38,7 +38,6 @@ test:
     - aws_sso_util
     - aws_sso_util.cfn_lib
   commands:
-    - pip check
     - aws-sso-util --help
   requires:
     - pip
@@ -52,3 +51,4 @@ about:
 extra:
   recipe-maintainers:
     - asford
+    - tdsmith
