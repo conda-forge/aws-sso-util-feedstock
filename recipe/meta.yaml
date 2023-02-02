@@ -1,5 +1,5 @@
 {% set name = "aws-sso-util" %}
-{% set version = "4.30.0" %}
+{% set version = "4.31.0" %}
 
 
 package:
@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aws-sso-util-{{ version }}.tar.gz
-  sha256: cfdca8877e7ab0a2dd9e360af45e9cb11420f7f8c31cec2c3b12f41d0a4f7f3a
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: a816ca64f4adb3fd9262963fb1c3a8f3741848e85689626af42d55686a66aa4a
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - aws-sso-util = aws_sso_util.cli:cli
