@@ -1,11 +1,11 @@
-About aws-sso-util
-==================
+About aws-sso-util-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aws-sso-util-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/benkehoe/aws-sso-util
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aws-sso-util-feedstock/blob/main/LICENSE.txt)
 
 Summary: Utilities to make AWS SSO easier
 
