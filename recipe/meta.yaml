@@ -1,5 +1,5 @@
 {% set name = "aws-sso-util" %}
-{% set version = "4.32.0" %}
+{% set version = "4.33.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 2649dcf3c594851a0c55ed6ebf2df70205d1debd6e58e263738430d4703890ec
+  sha256: e48d7f5911443450d28e1ac1613f81b9aa15babb1b2055b4531df87db43a09df
 
 build:
   number: 0
