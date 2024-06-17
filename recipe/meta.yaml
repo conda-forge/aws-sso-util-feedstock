@@ -11,7 +11,7 @@ source:
   sha256: e48d7f5911443450d28e1ac1613f81b9aa15babb1b2055b4531df87db43a09df
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - aws-sso-util = aws_sso_util.cli:cli
