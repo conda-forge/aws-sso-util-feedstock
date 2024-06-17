@@ -25,7 +25,7 @@ requirements:
   run:
     - click >=7.1.2,<9.0.0  # upstream pins to <8 but this seems to work
     - boto3 >=1.20.28,<2.0.0
-    - pyyaml >=5.3.1,<6.0.0
+    - pyyaml >=6.0.1,<7.0.0
     - jsonschema >=3.2.0,<4.0.0
     - aws-error-utils >=1.0.4,<2.0.0
     - python-dateutil >=2.8.1,<3.0.0
